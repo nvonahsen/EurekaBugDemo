@@ -13,8 +13,6 @@
 		31268FBD2256A87900B56764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31268FBB2256A87900B56764 /* Main.storyboard */; };
 		31268FBF2256A87D00B56764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31268FBE2256A87D00B56764 /* Assets.xcassets */; };
 		31268FC22256A87D00B56764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31268FC02256A87D00B56764 /* LaunchScreen.storyboard */; };
-		31268FCD2256A87D00B56764 /* EurekaDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31268FCC2256A87D00B56764 /* EurekaDemoTests.swift */; };
-		31268FD82256A87D00B56764 /* EurekaDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31268FD72256A87D00B56764 /* EurekaDemoUITests.swift */; };
 		8D3941B397BDCBDC60E7219A /* Pods_EurekaDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CCDFB219B100CAC9ED5D07 /* Pods_EurekaDemoUITests.framework */; };
 		AC8AB8B1D2AD76C048883E6F /* Pods_EurekaDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB922F775FBAE8BC0B6A456D /* Pods_EurekaDemoTests.framework */; };
 /* End PBXBuildFile section */
@@ -46,11 +44,7 @@
 		31268FC12256A87D00B56764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31268FC32256A87D00B56764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31268FC82256A87D00B56764 /* EurekaDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EurekaDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		31268FCC2256A87D00B56764 /* EurekaDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaDemoTests.swift; sourceTree = "<group>"; };
-		31268FCE2256A87D00B56764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31268FD32256A87D00B56764 /* EurekaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EurekaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		31268FD72256A87D00B56764 /* EurekaDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaDemoUITests.swift; sourceTree = "<group>"; };
-		31268FD92256A87D00B56764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		817EB1A761DA1D8D922046D9 /* Pods-EurekaDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-EurekaDemoUITests/Pods-EurekaDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F83559A7792942ACB85E8B5 /* Pods_EurekaDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EurekaDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB922F775FBAE8BC0B6A456D /* Pods_EurekaDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EurekaDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,8 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				31268FB62256A87900B56764 /* EurekaDemo */,
-				31268FCB2256A87D00B56764 /* EurekaDemoTests */,
-				31268FD62256A87D00B56764 /* EurekaDemoUITests */,
 				31268FB52256A87900B56764 /* Products */,
 				89A44A10B8E217894D75F9C1 /* Pods */,
 				AD562F0EB39F390B7F46AB5F /* Frameworks */,
@@ -124,24 +116,6 @@
 			path = EurekaDemo;
 			sourceTree = "<group>";
 		};
-		31268FCB2256A87D00B56764 /* EurekaDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				31268FCC2256A87D00B56764 /* EurekaDemoTests.swift */,
-				31268FCE2256A87D00B56764 /* Info.plist */,
-			);
-			path = EurekaDemoTests;
-			sourceTree = "<group>";
-		};
-		31268FD62256A87D00B56764 /* EurekaDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				31268FD72256A87D00B56764 /* EurekaDemoUITests.swift */,
-				31268FD92256A87D00B56764 /* Info.plist */,
-			);
-			path = EurekaDemoUITests;
-			sourceTree = "<group>";
-		};
 		89A44A10B8E217894D75F9C1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,7 +126,6 @@
 				817EB1A761DA1D8D922046D9 /* Pods-EurekaDemoUITests.debug.xcconfig */,
 				D62D6F0F9884386DA32EA6C5 /* Pods-EurekaDemoUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -401,7 +374,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31268FCD2256A87D00B56764 /* EurekaDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,7 +381,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31268FD82256A87D00B56764 /* EurekaDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
